@@ -67,7 +67,5 @@ for (key in m_puppy) {
 }
 
 Object.defineProperty(m_puppy, 'color', {enumerable : false} );
-
 console.log(Object.keys(m_puppy));
-
 console.log(Object.getOwnPropertyNames(m_puppy));
